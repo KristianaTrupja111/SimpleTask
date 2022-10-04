@@ -1,8 +1,8 @@
 import React from 'react'
 import "./CardContainer.scss";
 import logo from "../Asset/companyLogo.jpeg"
-import logo1 from "../Asset/quotes.jpeg"
-import logo2 from "../Asset/strips-bottom.jpeg"
+import logo1 from "../Asset/quotes.PNG"
+import logo2 from "../Asset/Capture.PNG"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
