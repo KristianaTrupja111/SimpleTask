@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+footer {
+  margin-top: 149px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../Asset/footerBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lists {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+.vivamus {
+  list-style: none;
+  position: relative;
+  margin-right: 35px;
+}
+.vivamus img {
+  margin-right: 20px;
+  width: 37px;
+  border-radius: 20px;
+}
+ul.vivamus li:first-child {
+  margin-bottom: 30px;
+}
+ul.vivamus li:nth-child(2) {
+  margin-bottom: 30px;
+}
+.elementum {
+  list-style: none;
+  margin-right: 35px;
+}
+.elementum img {
+  margin-right: 20px;
+  width: 37px;
+  border-radius: 20px;
+}
+ul.elementum li:first-child {
+  margin-bottom: 30px;
+}
+ul.elementum li:nth-child(2) {
+  margin-bottom: 30px;
+}
+.cookies {
+  list-style: none;
+  margin-top: 150px;
+}
+.copyright {
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+}
+.copyright p {
+  margin-left: 10%;
+}
+.copyright button {
+  border: none;
+  border-radius: 13px;
+  background-color: #1786f6;
+  color: white;
+  margin-left: 26%;
+  margin-top: 0px;
+  padding: 16px 66px;
+  outline: none;
+  font-size: 20px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1366px) {
+  main {
+    padding: 45px 34px;
+    margin: 0;
+    .inputs{
+      flex-direction: column;
+      .input-fields{
+        width:100%;
+      }
+      .submit-button {
+        margin-top: 50px;
+        width: 40%;
+        padding: 25px 20px;
+      }
+    }
+  .buttons{
+overflow-x: scroll;
+    .btn{
+      padding:10px 20px;
+      margin: 0 10px
+         }
+  } 
+  }
+ 
+  .stripe-bottom{
+    display: none;
+  }
+  .quotes {
+    top: 10px;
+    left: -2px;
+    
+}
+section {
+  
+  margin-top: 200px;
+}
+.card {
+  padding: 70px 70px;
+  width: 35%;
+}
+.card img.quotes {
+  top: 85px;
+  left: 4px;
+}
+}
+@media only screen and (max-width: 1024px) {
+nav{
+  margin:0;
+}
+.btn {
+  padding: 5px 10px;
+}
+.stripes-background .quotes {
+  width: 200px;
+}
+section{
+  flex-direction: column;
+  margin:0;
+}
+.card{
+  width:80%;
+}
+}
