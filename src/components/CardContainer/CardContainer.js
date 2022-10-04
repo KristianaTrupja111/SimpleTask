@@ -59,7 +59,7 @@ const CardContainer = () => {
           src={logo} className="logo"
         />
         <img
-          src={logo1} className="quotes"
+          src={logo1} className="quotes1"
         />
         <p className="description">
           Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum
@@ -81,7 +81,7 @@ const CardContainer = () => {
           src={logo} className="logo"
         />
         <img
-          src={logo1} className="quotes"
+          src={logo1} className="quotes1"
         />
         <p className="description">
           Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum
@@ -103,7 +103,7 @@ const CardContainer = () => {
           src={logo} className="logo"
         />
         <img
-          src={logo1} className="quotes"
+          src={logo1} className="quotes1"
         />
         <p className="description">
           Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum

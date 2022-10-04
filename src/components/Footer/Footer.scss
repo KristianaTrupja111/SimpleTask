@@ -17,33 +17,35 @@ footer {
   list-style: none;
   position: relative;
   margin-right: 35px;
+  img {
+    margin-right: 20px;
+    width: 37px;
+    border-radius: 20px;
+  }
+   li:first-child {
+    margin-bottom: 30px;
+  }
+   li:nth-child(2) {
+    margin-bottom: 30px;
+  }
 }
-.vivamus img {
-  margin-right: 20px;
-  width: 37px;
-  border-radius: 20px;
-}
-ul.vivamus li:first-child {
-  margin-bottom: 30px;
-}
-ul.vivamus li:nth-child(2) {
-  margin-bottom: 30px;
-}
+
 .elementum {
   list-style: none;
   margin-right: 35px;
+  img {
+    margin-right: 20px;
+    width: 37px;
+    border-radius: 20px;
+  }
+   li:first-child {
+    margin-bottom: 30px;
+  }
+   li:nth-child(2) {
+    margin-bottom: 30px;
+  }
 }
-.elementum img {
-  margin-right: 20px;
-  width: 37px;
-  border-radius: 20px;
-}
-ul.elementum li:first-child {
-  margin-bottom: 30px;
-}
-ul.elementum li:nth-child(2) {
-  margin-bottom: 30px;
-}
+
 .cookies {
   list-style: none;
   margin-top: 150px;
@@ -73,10 +75,10 @@ ul.elementum li:nth-child(2) {
   main {
     padding: 45px 34px;
     margin: 0;
-    .inputs{
+    .inputs {
       flex-direction: column;
-      .input-fields{
-        width:100%;
+      .input-fields {
+        width: 100%;
       }
       .submit-button {
         margin-top: 50px;
@@ -84,51 +86,87 @@ ul.elementum li:nth-child(2) {
         padding: 25px 20px;
       }
     }
-  .buttons{
-overflow-x: scroll;
-    .btn{
-      padding:10px 20px;
-      margin: 0 10px
-         }
-  } 
-  }
- 
-  .stripe-bottom{
-    display: none;
-  }
-  .quotes {
-    top: 10px;
-    left: -2px;
-    
-}
-section {
   
-  margin-top: 200px;
-}
-.card {
-  padding: 70px 70px;
-  width: 35%;
-}
-.card img.quotes {
-  top: 85px;
-  left: 4px;
-}
+  }
+  .stripes-background .stripe-bottom{
+    display:none;
+  }
+  footer .lists{
+    padding-top: 40px;
+    display: block;
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 1024px) {
-nav{
-  margin:0;
-}
-.btn {
-  padding: 5px 10px;
-}
-.stripes-background .quotes {
-  width: 200px;
-}
-section{
-  flex-direction: column;
-  margin:0;
-}
-.card{
-  width:80%;
-}
+  nav {
+    margin: 0 !important;
+    width: 100%;
+    justify-content: normal;
+
+    .nav-dropdown {
+      margin: 0;
+    }
+  }
+  main {
+    background-color: rgb(19, 19, 168);
+    background-image: none;
+    margin: 0;
+    padding: 10px 20px;
+
+    .inputs {
+      .input-fields {
+        label {
+          left: 35px;
+        }
+        svg {
+          left: 10px;
+        }
+        .location-container .svg {
+          left: 10px;
+        }
+      }
+
+      .submit-button {
+        width: 60%;
+      }
+    }
+
+    .buttons{
+      flex-direction: column;
+      .btn{
+        width:80%;
+        margin-bottom: 10px;
+      align-self: center;
+      }
+    }
+  }
+
+  .stripes-background{
+    .description-container{
+      padding-top:50px;
+    }
+    .quotes{
+      display:none;
+    }
+  
+    .slick-slider .slick-list .card{
+      .quotes1{
+        display:none;
+      }
+      img.logo{
+        left:0;
+      }
+      padding:50px 50px;
+      overflow-y: hidden;
+      p.description{
+        font-size: 15px;
+            }
+    }
+ 
+  }
+ footer{
+  .copyright button{
+    padding: 10px 20px;
+   }
+ } 
 }

@@ -36,15 +36,78 @@
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
       }
+}
     }
     
     
-    /*Cards*/
-    .slick-slider.slick-initialized{
+     /*Cards*/
+   .slick-slider.slick-initialized{
      width:80%;
      margin:auto;
      margin-top: 150px;
-     .slick-arrow.slick-next{
+ 
+     
+      .card {
+        padding: 100px 100px;
+        box-shadow: 1px 2px 8px rgb(204, 204, 204);
+        background-color: white;
+        position: relative;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        max-height:620px;
+        p {
+          font-size: 25px;
+         
+        }
+        img.logo{
+          max-width: 55px;
+          position: absolute;
+          top: 35px;
+          left: 44px;
+        }
+        img.quotes1{
+          max-width: 63px;
+          position: absolute;
+          top: 114px;
+          left: 26px;
+        }
+  
+        .author {
+          font-weight: bold;
+        }
+        .address {
+          font-weight: bold;
+          color: rgb(156, 154, 154);
+        }
+      }
+     
+  }
+    
+    
+   
+    
+    /*inner content + button*/
+    
+    .inner-content {
+      margin-top: 137px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Inter', sans-serif;
+      font-weight: bold;
+    }
+    
+    .inner-content button {
+      border: none;
+      color: white;
+      font-size: 25px;
+      border-radius: 50px;
+      padding: 13px 23px;
+      background-color: rgb(16 224 201);
+    }
+
+    @media only screen and (min-width: 1366px) {
+  .slick-slider{
+        .slick-arrow.slick-next{
       background:rgb(5, 189, 167);
       width: 70px;
       height: 70px;
@@ -88,64 +151,5 @@
     
       }
      }
-     
-      .card {
-        padding: 100px 100px;
-        box-shadow: 1px 2px 8px rgb(204, 204, 204);
-        margin-right: 20px;
-        background-color: white;
-        position: relative;
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        max-height:620px;
-        p {
-          font-size: 25px;
-         
-        }
-        img.logo{
-          max-width: 55px;
-          position: absolute;
-          top: 35px;
-          left: 44px;
-        }
-        img.quotes{
-          max-width: 63px;
-          position: absolute;
-          top: 114px;
-          left: 26px;
-        }
-  
-        .author {
-          font-weight: bold;
-        }
-        .address {
-          font-weight: bold;
-          color: rgb(156, 154, 154);
-        }
-      }
-     
-    }
-    
-    
-   
-    
-    /*inner content + button*/
-    
-    .inner-content {
-      margin-top: 137px;
-      text-align: center;
-      font-size: 25px;
-      font-family: 'Inter', sans-serif;
-      font-weight: bold;
-    }
-    
-    .inner-content button {
-      border: none;
-      color: white;
-      font-size: 25px;
-      border-radius: 50px;
-      padding: 13px 23px;
-      background-color: rgb(16 224 201);
-    }
   }
-  
+    }
